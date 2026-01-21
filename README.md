@@ -24,12 +24,24 @@ The theme is based on the official Ipoteka Bank brand colors:
 - **Dark Green (#006548)**: The primary brand color representing stability and trust. Used for main structural elements in the icon.
 - **Lime Green (#76BC21)**: A vibrant accent color symbolizing growth and innovation. Used for the central focus point in the icon.
 
-## Building from Source
+## Building and Deploying
+
+For detailed instructions on building and deploying theme plugins, see the official documentation:
+[Deploying a Theme](https://plugins.jetbrains.com/docs/intellij/deploying-theme.html)
+
+### Quick Start
 
 1. Clone the repository
 2. Open the project in IntelliJ IDEA
-3. Build the project using Gradle or the IDE build system
-4. The plugin JAR will be generated in the `build/distributions` directory
+3. Go to **Build** > **Prepare Plugin Module for Deployment**
+4. The plugin JAR will be generated in the project root directory
+
+### Publishing to JetBrains Marketplace
+
+1. Create an account on [JetBrains Marketplace](https://plugins.jetbrains.com/)
+2. Generate a permanent token in your profile
+3. Upload the plugin JAR file
+4. Fill in the plugin details and submit for review
 
 ## Compatibility
 
