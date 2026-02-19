@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>ipoteka_bank_otp_group</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
@@ -27,7 +27,16 @@
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-        Initial release of the theme.
+        <b>1.1.0</b>
+        <ul>
+            <li>Improved main window and toolbar background consistency when the IDE is inactive</li>
+            <li>Refined button, checkbox, and tool window stripe backgrounds for a more cohesive look</li>
+            <li>Fixed tool window selected button using a more appropriate active color (dark theme)</li>
+        </ul>
+        <b>1.0.0</b>
+        <ul>
+            <li>Initial release of the theme</li>
+        </ul>
     ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.

@@ -46,9 +46,12 @@
       "hoverBackground": "hoverBackground"
     },
     "MainWindow": {
-      "background": "surface"
+      "background": "surface",
+      "inactiveBackground": "surface"
     },
     "MainToolbar": {
+      "background": "surface",
+      "inactiveBackground": "surface",
       "borderColor": "transparent"
     },
     "Islands": 1,
@@ -96,8 +99,8 @@
       "foreground": "primaryForeground",
       "startBorderColor": "borderColor",
       "endBorderColor": "borderColor",
-      "startBackground": "inputBackground",
-      "endBackground": "inputBackground",
+      "startBackground": "windowBackground",
+      "endBackground": "windowBackground",
       "focusedBorderColor": "selectionBorderColor",
       "disabledBorderColor": "borderColor",
       "default": {
@@ -276,7 +279,7 @@
     "ToolWindow": {
       "background": "windowBackground",
       "Button": {
-        "selectedBackground": "alternateBackground",
+        "selectedBackground": "activeBackground",
         "hoverBackground": "hoverBackground"
       },
       "Header": {
@@ -289,6 +292,7 @@
         "underlinedTabInactiveBackground": "activeBackground"
       },
       "Stripe": {
+        "background": "surface",
         "borderColor": "transparent"
       }
     },
@@ -327,9 +331,9 @@
   },
   "icons": {
     "ColorPalette": {
-      "Checkbox.Background.Default": "inputBackground",
-      "Checkbox.Background.Selected": "inputBackground",
-      "Checkbox.Background.Disabled": "inputBackground",
+      "Checkbox.Background.Default": "windowBackground",
+      "Checkbox.Background.Selected": "windowBackground",
+      "Checkbox.Background.Disabled": "windowBackground",
       "Checkbox.Border.Default": "borderColor",
       "Checkbox.Border.Selected": "selectionBorderColor",
       "Checkbox.Border.Disabled": "selectionInactiveBorderColor",

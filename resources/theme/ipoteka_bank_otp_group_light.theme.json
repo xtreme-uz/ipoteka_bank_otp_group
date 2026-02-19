@@ -45,9 +45,12 @@
       "iconColor": "secondaryForeground"
     },
     "MainWindow": {
-      "background": "surface"
+      "background": "surface",
+      "inactiveBackground": "surface"
     },
     "MainToolbar": {
+      "background": "surface",
+      "inactiveBackground": "surface",
       "borderColor": "transparent"
     },
     "Islands": 1,
@@ -90,14 +93,14 @@
       "foreground": "primaryForeground",
       "startBorderColor": "borderColor",
       "endBorderColor": "borderColor",
-      "startBackground": "inputBackground",
-      "endBackground": "inputBackground",
+      "startBackground": "windowBackground",
+      "endBackground": "windowBackground",
       "focusedBorderColor": "activeBorderColor",
       "disabledBorderColor": "borderColor",
       "default": {
         "foreground": "primaryForeground",
-        "startBackground": "inputBackground",
-        "endBackground": "inputBackground",
+        "startBackground": "windowBackground",
+        "endBackground": "windowBackground",
         "startBorderColor": "borderColor",
         "endBorderColor": "borderColor",
         "focusColor": "activeBorderColor",
@@ -283,6 +286,7 @@
         "underlinedTabInactiveBackground": "activeBackground"
       },
       "Stripe": {
+        "background": "surface",
         "borderColor": "transparent"
       }
     },
@@ -325,9 +329,9 @@
   },
   "icons": {
     "ColorPalette": {
-      "Checkbox.Background.Default": "inputBackground",
-      "Checkbox.Background.Selected": "inputBackground",
-      "Checkbox.Background.Disabled": "inputBackground",
+      "Checkbox.Background.Default": "windowBackground",
+      "Checkbox.Background.Selected": "windowBackground",
+      "Checkbox.Background.Disabled": "windowBackground",
       "Checkbox.Border.Default": "borderColor",
       "Checkbox.Border.Selected": "selectionBorderColor",
       "Checkbox.Border.Disabled": "selectionInactiveBorderColor",
